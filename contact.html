@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>DataBuddy | Unlock Clarity, Drive Growth</title>
+    <meta name="description"
+        content="Ready to transform your data into profit? Contact DataBuddy to schedule a free, confidential data clarity session. Learn how we can help your SMB.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Lora:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- JSON-LD Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "DataBuddy",
+      "description": "A data consultancy for SMBs, specializing in data strategy, analytics, and AI integration to drive profit and efficiency.",
+      "url": "https://databuddy.us",
+      "logo": "assets/DataBuddy logo color RGB.png",
+      "serviceType": "Data Consulting",
+      "areaServed": "US",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "DataBuddy Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Data Strategy & Analytics",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Fractional CDO Services"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Data Automation"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+    </script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="site-header">
+            <div class="container header-container">
+                <a href="index.html" class="site-logo">
+                    <img src="assets/DataBuddy logo color RGB.png" alt="DataBuddy Logo">
+                </a>
+                <button class="nav-toggle" aria-controls="main-nav" aria-expanded="false">
+                    <span class="hamburger" aria-hidden="true"></span>
+                    <span class="sr-only">Menu</span>
+                </button>
+                <nav class="main-nav" id="main-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="partnership-model.html">Partnership Model</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="real-world-applications.html">Real-World Applications</a></li>
+                        <li><a href="contact.html" class="nav-button active">Book a Meeting</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section class="contact-page">
+                <div class="container">
+                    <h1 class="section-title">This is the first step toward finding clarity.</h1>
+                    <p class="subtitle">We exclusively partner with a small number of SMBs at a time to ensure a deep, focused engagement. Our process begins with a brief, confidential discovery call.</p>
+                    <p class="subtitle">This is not a sales pitch. It is a mutual interview to determine if we are the right fit for each other. We will listen to understand your challenges, and we will be direct and honest about whether we believe we can help.</p>
+                    <p class="subtitle">Please use the information below to get in touch. We look forward to learning about your business.</p>
+
+                    <div class="contact-grid">
+                        <div class="contact-form-container">
+                            <h2 class="section-title">Send Us a Message</h2>
+                            <form class="contact-form" id="contact-form" novalidate>
+                                <div class="form-group">
+                                    <label for="business-name">Business Name</label>
+                                    <input type="text" id="business-name" name="business-name">
+                                    <div class="error-message"></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="name">Your Name</label>
+                                    <input type="text" id="name" name="name" required>
+                                    <div class="error-message"></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Your Email</label>
+                                    <input type="email" id="email" name="email" required>
+                                    <div class="error-message"></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">What is your challenge?</label>
+                                    <textarea id="message" name="message" rows="5" required></textarea>
+                                    <div class="error-message"></div>
+                                </div>
+                                <div class="form-group" style="display: none;">
+                                    <label for="clicked-challenge-input">Clicked Challenge (Hidden)</label>
+                                    <input type="hidden" id="clicked-challenge-input" name="clicked-challenge">
+                                </div>
+                                <button type="submit" class="cta-button">Send Message</button>
+                                <div id="form-success-message" class="success-message"></div>
+                            </form>
+                        </div>
+
+                        <div class="what-to-expect">
+                            <h2 class="section-title">What to Expect</h2>
+                            <ul>
+                                <li><strong>Initial Contact:</strong> You'll receive a reply within one business day to schedule our call.</li>
+                                <li><strong>The Discovery Call (30 Minutes):</strong> A confidential discussion about your business goals and challenges.</li>
+                                <li><strong>Mutual Decision:</strong> Following the call, we will both decide if a partnership makes sense. If so, we will outline the next steps for the due diligence phase.</li>
+                            </ul>
+                            <div class="text-center" style="margin-top: var(--spacing-l);">
+                                <!-- Removed Calendly link as per user request -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+                <footer id="footer" class="main-footer">
+            <div>
+                <div class="footer-grid">
+                    <div class="footer-column">
+                        <a href="index.html" class="footer-logo-link">
+                            <img src="assets/DataBuddy logo color white letters RGB.png" alt="DataBuddy LLC Logo"
+                                class="logo-image">
+                        </a>
+                        <p class="footer-tagline">We translate complex data into clear, actionable strategies that drive
+                            real business growth.</p>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4 class="footer-heading">Navigate</h4>
+                        <ul class="footer-nav-vertical">
+                            <li><a href="index.html" class="nav-link">Home</a></li>
+                            <li><a href="partnership-model.html" class="nav-link">Partnership Model</a></li>
+                            <li><a href="about.html" class="nav-link">About</a></li>
+                            <li><a href="real-world-applications.html" class="nav-link">Real-World Applications</a></li>
+                            <li><a href="contact.html" class="nav-link">Book a Meeting</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4 class="footer-heading">Get in Touch</h4>
+                        <ul class="footer-contact-list">
+                            <li><i class="fa-solid fa-location-dot"></i> <span>Sacramento, CA</span></li>
+                            <li><i class="fa-solid fa-envelope"></i> <a href="mailto:mdavis@databuddy.us"
+                                    class="nav-link">mdavis@databuddy.us</a></li>
+                            <li><i class="fa-solid fa-comment-dots"></i> <a href="contact.html" class="nav-link">Send a Message</a></li>
+                        </ul>
+                        <div class="footer-socials">
+                            <a href="https://www.linkedin.com/in/michaeladavis1/" target="_blank"
+                                rel="noopener noreferrer" class="social-link" aria-label="LinkedIn Profile">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                            <a href="https://metricdrive.us" target="_blank" rel="noopener noreferrer"
+                                class="social-link" aria-label="MetricDrive Website">
+                                <i class="fa-solid fa-briefcase"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p class="footer-copyright">&copy; 2025 DataBuddy LLC. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
